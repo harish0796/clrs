@@ -1,2 +1,6 @@
 The travelling salesman problem is to find a path that contains a permutation of every node in the graph, while in the shortest path problem,
-any given shortest path may or maynot contain 
+any given shortest path may or maynot contain a vertex and often times the shortest path is a proper subset of all the vertices.
+
+Other differences include:
+1) TSP requires its solution to be a cycle while a shortest path never contains cycles(non-negative edge weights).
+2) TSP is an NP-complete problem where as shortest path is known polynomial-time.
