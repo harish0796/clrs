@@ -1,0 +1,1 @@
+Binary Search Tree provides a search time of O(logN) on average but in the worst case its search time in O(N).
