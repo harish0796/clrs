@@ -1,0 +1,11 @@
+Write pseudocode for adding two N bit integers and storing the result in N+1 element array
+
+SUM(A, B)
+Cin = 0
+for i = N to 0
+  C[i+1] = A[i]^B[i]^Cin
+  Cin = A[i].B[i] + Cin.(A[i]^B[i])
+C[0] = Cin
+return C
+  
+  
