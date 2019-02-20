@@ -1,0 +1,13 @@
+LINEAR-SEARCH(A, v)
+V=NIL
+for i = 0 to A.length
+  if A[i] == v
+    V = i
+return V
+
+Proof:
+Initialization: When i = 0 then the for loop turns to an IF statement which is trivial.
+
+Maintenance: There is only one iteration of the loop.
+
+Termination: When the loop finishes we either find the element or not, eitherway we return the answer.
