@@ -1,0 +1,7 @@
+How can we modify almost any algorithm to have a good best-case running time?
+
+You can modify any algorithm to have a best case time complexity of O(n) by adding a special case, that if the input matches this special case - return a cached hard coded answer (or some other easily obtained answer).
+
+For example, for any sort, you can make best case O(n) by checking if the array is already sorted - and if it is, return it as it is.
+
+Note it does not impact average or worst cases (assuming they are not better then O(n)), and you basically improve the algorithm's best case time complexity.
