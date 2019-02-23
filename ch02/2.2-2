@@ -1,0 +1,7 @@
+SELECTION-SORT(A)
+for i = 0 to i < A.length - 1
+  min = FIND-MIN(A, i , A.length)
+  SWAP(min, A[i])
+  
+The loop invariant this algorithm maintains is that the array A[0..n-1] should be sorted at the end and the array A[0..i] is sorted at every step in the loop.
+The best and worst of the selection sort is O(n^2)
