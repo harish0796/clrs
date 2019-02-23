@@ -1,0 +1,3 @@
+T(n) = T(n/2) + n , when n is exact power of 2.
+
+T(n) = nlogn, very well known recurrence
